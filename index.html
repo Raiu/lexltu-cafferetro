@@ -13,72 +13,108 @@
   <link rel="stylesheet" href="reset.css" />
   <title>Caffe Retro</title>
 </head>
-<body style="scroll-snap-type: y mandatory;">
-  <nav class="nav-bar" id="main-nav">
-    <ul>
+<body>
+  <header id="main-nav">
+  <nav >
+    <ul class="nav-list">
       <li><a href="#page-hot">Hot</a></li>
       <li><a href="#page-juicy">Juicy</a></li>
       <li><a href="#page-cosy">Cosy</a></li>
     </ul>
-
   </nav>
-
+</header>
 
   <main>
     <section class="full-page" id="page-hot">
-      <article>
-        <header>
+      <article class="page-content flex-col">
+        <header class="center">
           <h2>Hot</h2>
         </header>
-        <div>
+        <div class="box bg-darkred start">
           Hot freshly ground black coffee or a cup of exquisite tea?
         </div>
-        <div>
+        <div class="box bg-darkred end">
           We give you that perfect cup every time.
         </div>
-        <div>
-          Mocha Latte   € 7.50
-          Caffe Formaggio   € 5.00
-          Espresso   € 3.50
-          Chai Verde Latte   € 5.50
+        <div class="box bg-black center">
+          <table>
+            <tr>
+              <td>Mocha Latte</td>
+              <td>€ 7.50</td>
+            </tr>
+            <tr>
+              <td>Caffe Formaggio</td>
+              <td>€ 5.00</td>
+            </tr>
+            <tr>
+              <td>Espresso</td>
+              <td>€ 3.50</td>
+            </tr>
+            <tr>
+              <td>Chai Verde Latte</td>
+              <td>€ 5.50</td>
+            </tr>
+          </table>
         </div>
       </article>
     </section>
 
   <section class="full-page" id="page-juicy">
-    <article>
-      <header>
+    <article class="page-content flex-col">
+      <header class="center">
         <h2>Juicy</h2>
       </header>
-      <div>
+      <div class="box bg-darkred start">
         Ripe fruit - freshly squeezed.
       </div>
-      <div>
+      <div class="box bg-darkred end">
         It's as simple as that. Chunky or smooth - it's your choice.
       </div>
-      <div>
-        Branched Apricots   € 4.20
-Deep Rasberries   € 3.50
-Smooth Oranges   € 6.50
+      <div class="box bg-black center">
+        <table>
+          <tr>
+            <td>MBranched Apricots</td>
+            <td>€ 4.20</td>
+          </tr>
+          <tr>
+            <td>Deep Rasberries</td>
+            <td>€ 3.50</td>
+          </tr>
+          <tr>
+            <td>Smooth Oranges</td>
+            <td>€ 6.50</td>
+          </tr>
+        </table>
       </div>
     </article>
   </section>
 
   <section class="full-page" id="page-cosy">
-    <article style="height: 500px;">
-      <header>
+    <article class="page-content flex-col">
+      <header class="center">
         <h2>Cosy</h2>
       </header>
-      <div>
+      <div class="box bg-darkred start">
         Hang around. Enjoy the settings.
       </div>
-      <div>
+      <div class="box bg-darkred end">
         Use our fast WiFi. Borrow a newspaper or a novel.
       </div>
-      <div>
-        Mon-Sun   8am – 11pm
-Caffe Retro  Canto VI
-0123-45 67 89   caffe@lorem.pge
+      <div class="box bg-black center">
+        <table>
+          <tr>
+            <td>Mon-Sun</td>
+            <td>8am – 11pm</td>
+          </tr>
+          <tr>
+            <td>Caffe Retro</td>
+            <td>Canto VI</td>
+          </tr>
+          <tr>
+            <td>0123-45 67 89</td>
+            <td>caffe@lorem.pge</td>
+          </tr>
+        </table>
       </div>
     </article>
   </section>
